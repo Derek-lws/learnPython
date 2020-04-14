@@ -1,12 +1,12 @@
 """
 	date:2020.04.13
-	author:Derec_Lee
+	author:Derek_lws
 """
-print ('Hello World!')
+print ('Hello World!')#output
 
-a = 1.3
+a = 1.3#simple parameter
 print (a)
-print (type(a))
+print (type(a))#type of parameter
 
 s1 = ('SAD',1.3,False,4)#tuple enum can't change
 s2 = [1.4,4,True]#list enum can be changed
@@ -57,7 +57,7 @@ def yearSelect(n):
 
 print(yearSelect(2008))
 
-class Bird(object):
+class Bird(object):#father class
     have_feather = True
     way_of_reproduction = 'egg'
     def move(self, dx, dy):
@@ -69,11 +69,11 @@ class Bird(object):
 summer = Bird()
 print ('after move:',summer.move(5,8))
 
-class Chicken(Bird):
+class Chicken(Bird):#son class
     way_of_move = 'walk'
     possible_in_KFC = True
 
-class Oriole(Bird):
+class Oriole(Bird):#son class
     way_of_move = 'fly'
     possible_in_KFC = False
 
