@@ -6,7 +6,7 @@ print ('Hello World!')
 
 a = 1.3
 print (a)
-print (type(a))
+print (type(a),"I have a apple")
 
 s1 = ('SAD',1.3,False,4)#tuple enum can't change
 s2 = [1.4,4,True]#list enum can be changed
