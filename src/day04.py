@@ -1,3 +1,7 @@
+"""
+	date:2020.04.16
+	author:Derek_lws
+"""
 import numpy as np#Numpy是Python的一种开源的数值计算扩展。
 #主要用于储存和处理大型矩阵
 import random
